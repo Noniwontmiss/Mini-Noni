@@ -1,0 +1,12 @@
+{
+  "name": "telegram-gemini-deplexo-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram AI chatbot with persistent memory, channel administration, and Gemini free tier",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --env-file=.env index.js",
+    "check": "node --check index.js"
+  },
+  "engines": { "node": ">=22" }
+}
